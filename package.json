@@ -1,0 +1,17 @@
+{
+  "name": "movie-api",
+  "version": "0.0.1",
+  "description": "Api para practicar el consumo y peticiones con los verbos HTTP",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --experimental-modules --es-module-specifier-resolution=node server"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "uuid": "^8.3.2"
+  },
+  "type": "module"
+}
